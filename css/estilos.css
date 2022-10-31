@@ -20,6 +20,16 @@ footer{
     margin: 8px;
 }
 
+footer a img {
+    margin-top: 14px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+footer p {
+    margin-top: 5px;
+}
+
 .logo{
     box-sizing:border-box;
     display:inline-block;
