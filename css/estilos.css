@@ -56,14 +56,14 @@ footer p {
 
 form{
      background-color: gainsboro;
-     padding: 30px;
+     padding: 20px;
      margin: 0px 180px 1px 180px;
      border-radius: 0px 0px 12px 12px;
 }
 
 .formulario{
     background-color: gainsboro;
-    padding: 30px;
+    padding: 25px;
     margin: 1px 180px 0px 180px;
     border-radius: 12px 12px 0px 0px;
 }
@@ -132,7 +132,6 @@ form{
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 20px;
     align-items: stretch;
-    border: #900 solid;
   }
 
   .container-card > article {
@@ -142,7 +141,6 @@ form{
 
   .container-card > article img {
     max-width: 100%;
-    border: pink solid;
   } 
 
   .text {
@@ -167,7 +165,6 @@ form{
     width: auto; /*300px; */
     height: auto; /*300px; */
     perspective: 1000px;
-    border: #900 solid;
   }
   
   .flip-card-inner {
@@ -393,6 +390,15 @@ input[type=email]{
     padding: 0.3em;
   }
   /*Fin: Estilos para email */
+
+  .contacto{
+    padding-left: 52px;
+  }
+
+  .contacto > h1 {
+    text-align: center;
+    text-decoration-line: underline;
+  }
   
    /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
