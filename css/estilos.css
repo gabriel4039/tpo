@@ -484,9 +484,7 @@ input[type=email]{
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
-    grid-row-end: 2;
-    border: blue solid;
-    
+    grid-row-end: 2;    
   }
 
   .item3-prod {
@@ -498,29 +496,30 @@ input[type=email]{
     text-align: center;
   }
   
-  /*.item2-prod article{
-    flex: 50%;
+  .item2-prod article{
+    /* flex: 50%; */
     border: violet solid;
     
   }
 
-  .item2-prod img{
-    object-fit: cover;
-    
-  } 
   .flex-prod{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     flex-wrap: wrap;
     border: yellow solid;
-    width: 100%;
+    
   }
 
   .flex-prod > article {
-    width: 50%;
+    flex: 50%;
     
     border: black solid;
-  } */
+  }
+
+  .flex-prod img {
+    object-fit:contain;
+  }
+
 
 /*Fin: Menu de opciones en Productos*/
 
