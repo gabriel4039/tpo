@@ -150,13 +150,15 @@ form{
 
   .text {
     padding: 0 20px 20px;
+    margin-top: 305px;
+    text-align: center;    
   }
   .text > button {
     background: gray;
     border: 0;
     color: white;
-    padding: 10px;
-    width: 100%;
+    padding: 5px;
+    width: 100%;    
     }
 
     .text > button:hover{
@@ -483,6 +485,8 @@ input[type=email]{
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
+    border: blue solid;
+    
   }
 
   .item3-prod {
@@ -493,6 +497,30 @@ input[type=email]{
     margin: 0px;
     text-align: center;
   }
+  
+  /*.item2-prod article{
+    flex: 50%;
+    border: violet solid;
+    
+  }
+
+  .item2-prod img{
+    object-fit: cover;
+    
+  } 
+  .flex-prod{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: yellow solid;
+    width: 100%;
+  }
+
+  .flex-prod > article {
+    width: 50%;
+    
+    border: black solid;
+  } */
 
 /*Fin: Menu de opciones en Productos*/
 
